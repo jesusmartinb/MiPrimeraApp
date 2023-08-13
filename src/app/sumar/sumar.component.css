@@ -1,0 +1,15 @@
+.sumar {
+    width: 200px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+p,
+button {
+    text-align: center;
+}
+
+input {
+    width: 40px;
+    border: none;
+}

@@ -1,0 +1,10 @@
+<h1>{{ mensaje }}</h1>
+<h2>Subtitulo</h2>
+<p>{{ mensaje }}</p>
+<p>{{ 1 + 1 }}</p>
+<p>El método me devuelve: {{ mostrarSaludo() }}</p>
+<p id="prefijo-{{identifParrafo}}-sufijo">Párrafo para modificar sus atributos</p>
+<!-- Colocamos entre corchetes el nombre de un atributo y lo igualamos al valor del nombre de la variable en el component.ts de esta forma hacemos dinamicos los atributos gracias al property binding -->
+<p [id]="identifParrafo">Otro párrafo</p>
+<input [type]="identifTypeInput">
+<br><br>
