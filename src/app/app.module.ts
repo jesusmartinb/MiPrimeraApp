@@ -2,13 +2,13 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { SaludoComponent } from './saludo/saludo.component';
-import { PadreComponent } from './padre/padre.component';
-import { Hijo1Component } from './hijo1/hijo1.component';
-import { Hijo2Component } from './hijo2/hijo2.component';
-import { EventosComponent } from './eventos/eventos.component';
-import { SumarComponent } from './sumar/sumar.component';
-import { CronometroComponent } from './cronometro/cronometro.component';
+import { SaludoComponent } from './components/saludo/saludo.component';
+import { PadreComponent } from './components/padre/padre.component';
+import { Hijo1Component } from './components/hijo1/hijo1.component';
+import { Hijo2Component } from './components/hijo2/hijo2.component';
+import { EventosComponent } from './components/eventos/eventos.component';
+import { SumarComponent } from './components/sumar/sumar.component';
+import { CronometroComponent } from './components/cronometro/cronometro.component';
 
 @NgModule({
   declarations: [
